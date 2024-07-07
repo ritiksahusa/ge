@@ -8,3 +8,10 @@ jobs:
     steps:
       - name: Echo current time
         run: echo "The current server time is $(date)"
+  hello_world_2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo current time Step No1
+        run: echo "The current server time is $(date)"
+      - name: Echo current time Step No2
+        run: echo "The current server time is $(date)"
